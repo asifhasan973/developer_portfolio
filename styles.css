@@ -20,6 +20,22 @@
     color: white;
     font-weight: 700;
 }
+.btn-cmn2{
+    border: 1px solid rgb(253, 110, 10);
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: rgb(253, 110, 10);;
+    font-weight: 700;
+}
+
+header{
+    background-image: url(./images/developer.png),url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom,bottom right;
+    background-size: auto 100%, auto 65%;
+
+} 
 
 /* Navbar */
 nav h1{
@@ -45,4 +61,24 @@ nav ul li a{
     text-decoration: none;
     color: rgb(71, 71, 71);
    
+}
+
+/* bnr */
+.bnr{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 40px 0 153px;
+
+}
+.bnr-txt{
+    width: 398px;
+}
+
+.bnr-txt h1{
+    font-size: 50px;
+    padding: 15px 0;
+}
+.bnr-txt p{
+    padding-bottom: 20px;
 }
